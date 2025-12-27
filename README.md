@@ -60,7 +60,7 @@ UI Automation (Critical Flows)
 Defensive validation - absence of error states
 > Tests are designed to be **limited and focused**, representative of real production priorities.
 -
-## design choices why this is senior-level
+## design choices 
 
 * **Critical-path testing** over excessive UI coverage
 
@@ -103,35 +103,6 @@ npx playwright show-report
 
 ```
 
----
-
-CI Integration (GitHub Actions)
-This project uses a **GitHub Actions pipeline**, which:
-* Runs tests on every push & PR
-* Performs tests headlessly
-
-* Retries failures in CI
-
-* Uploads HTML reports as artifacts
-
-✦ Workflow file:
-
-�
-.github/workflows/playwright.yml
-
-↑
-
--
-
-What This Project Demonstrates ????
-
-* Senior-level automation thinking
-
-* CI-ready test design
-* Practical Playwright usage
-* Realistic test scope decisions
-
-* Ownership of quality, not just scripts
 
 ---
 
@@ -143,5 +114,3 @@ I am an experienced **Senior QA Automation Engineer** with experience across:
 
 * CI/CD-driven test execution
 * Banking & enterprise systems
-
-Currently actively exploring Senior QA Automation opportunities. ???? Connect with me on **LinkedIn**. - ## ???? Future Improvements (Optional) * Page Object refactor for scaling API-level validations for checkout flow. V Test data abstraction * Cross-browser execution - ⭐ If you're a recruiter or hiring manager This repo is representative of **how I work**, not simply what tools I know. - If you wish, next I can * Provide the **exact LinkedIn post** for sharing this repository * Provide you with a **resume bullet** based on this project Create a **push checklist** before forwarding this to recruiters. Just tell me what you want next ????
